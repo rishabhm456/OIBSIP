@@ -17,7 +17,7 @@ class Game {
     public boolean takeUserInput() {
         if (noOfGuesses < 10) {
             System.out.println("Guess the number : ");
-            this.userInput = Task1.takeIntegerInput(100);
+            this.userInput = Task2.takeIntegerInput(100);
             noOfGuesses++;
             return false;
         } else {
@@ -82,7 +82,7 @@ class Game {
 }
 
 // Main class
-public class Task1 {
+public class Task2 {
     public static int takeIntegerInput(int limit) {
         int input = 0;
         boolean flag = false;
